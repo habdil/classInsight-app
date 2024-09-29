@@ -1,6 +1,8 @@
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
 import { auth } from "@clerk/nextjs/server";
+import { IconBadge } from "@/components/icon-badge";
+import { LayoutDashboard } from "lucide-react";
 
 const CourseIdPage = async ({
     params
@@ -47,6 +49,16 @@ const CourseIdPage = async ({
                 <span className="text-sm text-slate-700">
                     Complete all fields {completionText}
                 </span>
+            </div>
+           </div>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+            <div>
+                <div className="flex items-center gap-x-2">
+                    <IconBadge icon={LayoutDashboard} />
+                    <h2 className="text-xl">
+                        Customize your course
+                    </h2>
+                </div>
             </div>
            </div>
         </div>
