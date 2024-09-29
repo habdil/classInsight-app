@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "typeRoots": ["./node_modules/@types", "./"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -21,7 +22,8 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": ["phoenix"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/cek/page.js"],
   "exclude": ["node_modules"]
