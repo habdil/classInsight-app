@@ -3,7 +3,7 @@ import { UserButton } from "@clerk/nextjs";
 export default function Home() {
   return (
     <div>
-      Ini bagian Home
+      <h2>Ini bagian Home</h2>
     </div>
   );
 }

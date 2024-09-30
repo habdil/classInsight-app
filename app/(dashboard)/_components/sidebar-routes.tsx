@@ -1,7 +1,7 @@
 "use client";
 
 import { BarChart, Compass, House, List } from "lucide-react";
-import { SidebarItem } from "./sidebar-item"; // Pastikan SidebarItem diimpor dengan benar
+import { SidebarItem } from "./sidebar-item";
 import { usePathname } from "next/navigation";
 
 const teacherRoutes = [

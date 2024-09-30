@@ -5,7 +5,7 @@ const CoursesPage = () => {
     return ( 
         <div className="p-6">
             <Link href="/teacher/create">
-                <Button>
+                <Button className="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded">
                     New Course
                 </Button>
             </Link>

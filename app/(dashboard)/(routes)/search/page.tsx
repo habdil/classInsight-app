@@ -1,7 +1,7 @@
 const SearchPage = () => {
     return ( 
         <div>
-            Ini adalah bagian task
+            Ini adalah bagian search
         </div>
      );
 }
